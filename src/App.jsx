@@ -39,11 +39,7 @@ function App() {
 
        <Footer />
 
-      <h3 className="text-white">
-        <Link to="/cards">CArds</Link>
-      </h3>
-
-      <h1 className="text-white"> If i sabi this react thing ehn,, Mark</h1>
+      
     </div>
   );
 }
