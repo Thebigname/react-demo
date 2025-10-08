@@ -39,7 +39,7 @@ export default function Navbar() {
         <li>
           <NavLink to="/Contact" className={linkClasses}>
             Contact
-          </NavLink>{" "}
+          </NavLink>
         </li>
         <li>
           <NavLink to="About" className={linkClasses}>
@@ -62,11 +62,16 @@ export default function Navbar() {
         </h1>
 
         <ul className=" uppercase text-left p-4">
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 border-b border-gray-600">Company</li>
-          <li className="p-4 border-b border-gray-600">Resources</li>
-          <li className="p-4 border-b border-gray-600">Contact</li>
-          <li className="p-4">About</li>
+          <li className="p-4 border-b border-gray-600"><NavLink to="/" className={linkClasses}>
+            Home</NavLink></li>
+          <li className="p-4 border-b border-gray-600"><NavLink to="/Company" className={linkClasses}>
+            Company</NavLink></li>
+          <li className="p-4 border-b border-gray-600"><NavLink to="/Resources" className={linkClasses}>
+            Resources</NavLink></li>
+          <li className="p-4 border-b border-gray-600"><NavLink to="/Contact" className={linkClasses}>
+            Contact</NavLink></li>
+          <li className="p-4"> <NavLink to="About" className={linkClasses}>
+            About</NavLink></li>
         </ul>
       </div>
     </div>
