@@ -8,4 +8,7 @@ export default defineConfig({
       react(),
       tailwindcss()
     ],
+     resolve: {
+    // This helps catch case issues during dev
+    preserveSymlinks: true}
 })

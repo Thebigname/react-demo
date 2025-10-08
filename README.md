@@ -1,3 +1,5 @@
+# react-demo
+This is a react project i explored different react libaries and frame work, I used the typewritter, lucide react, and other library to get this visual appealing website.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
